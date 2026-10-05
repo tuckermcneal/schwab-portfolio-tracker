@@ -5,7 +5,6 @@ namespace PortfolioTracker;
 
 public static class Json
 {
-    // Web defaults = camelCase + case-insensitive, which matches Schwab's payloads.
     public static readonly JsonSerializerOptions Options = new(JsonSerializerDefaults.Web);
 }
 
